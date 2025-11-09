@@ -1,0 +1,4387 @@
+{
+    "data": [
+      {
+        "name": "ANCAP Colonia del Sacramento",
+        "address": "Av. Buenos Aires y 18 de Julio",
+        "lat": -34.471664,
+        "lng": -57.841764,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Colonia",
+        "status": "Cargando"
+      },
+      {
+        "name": "Estación Península",
+        "address": "Capitán Miranda esquina El Trinquete",
+        "lat": -34.967524,
+        "lng": -54.951832,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Chuy",
+        "address": "Gral Artigas 209 y Samuel Prilliac, 27100",
+        "lat": -33.694694,
+        "lng": -53.455267,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rocha",
+        "city": "Chuy",
+        "status": "Cargando"
+      },
+      {
+        "name": "Joanicó",
+        "address": "Joanicó esquina Bv. Jose Batlle y Ordoñez",
+        "lat": -34.87903,
+        "lng": -56.148899,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 3,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Electrolinera Leguizamón",
+        "address": "Jose Leguizamon 34630",
+        "lat": -34.896317,
+        "lng": -56.140618,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 120,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 8,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 6,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "",
+            "power": 0,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Roosevelt Punta del Este",
+        "address": "Roosevelt y Naciones Unidas",
+        "lat": -34.933228,
+        "lng": -54.941723,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Maldonado",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP La Radial",
+        "address": "Ruta 1 km 66",
+        "lat": -34.559155,
+        "lng": -56.744655,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "San José",
+        "city": "Paraje La Radial",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Rosario",
+        "address": "Ruta 2. esq.Baltasar Brum",
+        "lat": -34.322365,
+        "lng": -57.349989,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Rosario",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Rocha",
+        "address": "Ruta 9 km 206,400, 27000",
+        "lat": -34.496353,
+        "lng": -54.327217,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rocha",
+        "city": "Rocha",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP San Luis",
+        "address": "Ruta Interbalnearia Km. 63,500",
+        "lat": -34.77033,
+        "lng": -55.576509,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "San Luis",
+        "status": "Cargando"
+      },
+      {
+        "name": "Intendencia",
+        "address": "Santiago de Chile esq. San José",
+        "lat": -34.905827,
+        "lng": -56.185525,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 6,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "UTEC Durazno",
+        "address": "Dr. Maciel entre Rubino y Morquio, Durazno",
+        "lat": -33.387208,
+        "lng": -56.51478,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Durazno",
+        "city": "Durazno",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Trinidad",
+        "address": "Ines Durán 1061 y Navea",
+        "lat": -33.513166,
+        "lng": -56.907767,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Flores",
+        "city": "Trinidad",
+        "status": "Cargando"
+      },
+      {
+        "name": "Parque Santa Teresa",
+        "address": "Ruta 9 Km 302, Rocha",
+        "lat": -34.002017,
+        "lng": -53.552156,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rocha",
+        "city": "Parque Nacional de Santa Teresa",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Buena Unión",
+        "address": "Ruta 5 y Ruta 30",
+        "lat": -31.252128,
+        "lng": -55.664532,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rivera",
+        "city": "Buena Unión",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Durazno",
+        "address": "Brigadier Gral. Fructuoso Rivera",
+        "lat": -33.393937,
+        "lng": -56.52298,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Durazno",
+        "city": "Durazno",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Cerro Colorado",
+        "address": "Alejandro Gallinal, Ruta 7 km. 168",
+        "lat": -33.865605,
+        "lng": -55.550759,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Florida",
+        "city": "Cerro Colorado",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Paso de los Toros",
+        "address": "Ruta 5 km. 251,100",
+        "lat": -32.793311,
+        "lng": -56.520291,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Tacuarembó",
+        "city": "Paso de los Toros",
+        "status": "Cargando"
+      },
+      {
+        "name": "Belloni",
+        "address": "Av. José Belloni y Av. 8 de Octubre",
+        "lat": -34.855226,
+        "lng": -56.132189,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP José Batlle y Ordóñez",
+        "address": "19 de Abril y Ruta 7",
+        "lat": -33.47043,
+        "lng": -55.15019,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Lavalleja",
+        "city": "José Batlle y Ordóñez",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP José Pedro Varela",
+        "address": "Calle Treinta y Tres esquina 18 de Julio",
+        "lat": -33.457275,
+        "lng": -54.527432,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Lavalleja",
+        "city": "José Pedro Varela",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Rivera",
+        "address": "Luis Alberto de Herrera y Ruta 5",
+        "lat": -30.914811,
+        "lng": -55.539302,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Rivera",
+        "city": "Rivera",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Vichadero",
+        "address": "Bulevar Artigas y Dr. Paradera",
+        "lat": -31.775192,
+        "lng": -54.687176,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Rivera",
+        "city": "Vichadero",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Velázquez",
+        "address": "Ruta 15 km 84,500",
+        "lat": -34.034776,
+        "lng": -54.280123,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rocha",
+        "city": "Velázquez",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Fray Bentos",
+        "address": "Ruta 2 y 24",
+        "lat": -33.169447,
+        "lng": -58.181172,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Fray Bentos",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP José Enrique Rodó",
+        "address": "Ruta 2 Km. 208,500",
+        "lat": -33.700847,
+        "lng": -57.525943,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Soriano",
+        "city": "José Enrique Rodó",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Florencio Sanchez",
+        "address": "25 de Agosto esq. Artigas",
+        "lat": -33.875561,
+        "lng": -57.372838,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Florencio Sanchez",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Carmelo",
+        "address": "33 Orientales entre Tomas Gomez y Paraguay",
+        "lat": -33.986462,
+        "lng": -58.282765,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Carmelo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Nueva Palmira 11",
+        "address": "Ruta 21 esq. San José, Nueva Palmira",
+        "lat": -33.885016,
+        "lng": -58.381832,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Nueva Palmira",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Dolores",
+        "address": "Ruta 21 esq. Perimetral Juan Manuel Blanes",
+        "lat": -33.517676,
+        "lng": -58.203379,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Soriano",
+        "city": "Dolores",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Car One",
+        "address": "Ruta Interbalnearia esq. Av. Uruguay",
+        "lat": -34.817322,
+        "lng": -55.97914,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Ciudad de la Costa",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP San José de Mayo - Ocampo",
+        "address": "Ruta 3 esquina Av. José Pedro Varela",
+        "lat": -34.33246,
+        "lng": -56.726218,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "San José",
+        "city": "San José de Mayo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Tala",
+        "address": "Tomás Berreta y Guzmán Azuaga",
+        "lat": -34.343524,
+        "lng": -55.758813,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Tala",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Bella Unión",
+        "address": "Ruta 3 Km. 628,000, 55100 Artigas",
+        "lat": -30.2715,
+        "lng": -57.585944,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Artigas",
+        "city": "Bella Unión",
+        "status": "Cargando"
+      },
+      {
+        "name": "Parque de la amistad",
+        "address": "Alejo Rosell y Ruis esquina Av. Rivera",
+        "lat": -34.902205,
+        "lng": -56.146114,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Guichón",
+        "address": "Dr. Penza 272 y Avda. Artigas",
+        "lat": -32.35879,
+        "lng": -57.202215,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Paysandú",
+        "city": "Guichón",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Minas",
+        "address": "Diagonal Oribe y Luis A. de Herrera",
+        "lat": -34.376132,
+        "lng": -55.246748,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Lavalleja",
+        "city": "Minas",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Treinta y Tres",
+        "address": "Ruta 8 Km. 285,000",
+        "lat": -33.236092,
+        "lng": -54.39778,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Treinta y Tres",
+        "city": "Treinta y Tres",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Young",
+        "address": "Montevideo 3194",
+        "lat": -32.704954,
+        "lng": -57.630866,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Young",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Paysandú",
+        "address": "Ruta 3 km 366",
+        "lat": -32.35249,
+        "lng": -58.050937,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Paysandú",
+        "city": "Paysandú",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP La Paz",
+        "address": " Ruta 5 km 19700 esq Tomás Aldabalde",
+        "lat": -34.750076,
+        "lng": -56.252772,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Canelones",
+        "city": "La Paz",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Canelones",
+        "address": "Ruta 11 km 102,200",
+        "lat": -34.512814,
+        "lng": -56.246288,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Canelones",
+        "city": "Canelones",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Salto",
+        "address": "Ruta 3 km 491,500",
+        "lat": -31.426445,
+        "lng": -57.933983,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Salto",
+        "city": "Salto",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Sarandí del Yí",
+        "address": "Pte. Bernardo Berro 604",
+        "lat": -33.344227,
+        "lng": -55.628443,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Durazno",
+        "city": "Sarandí del Yí",
+        "status": "Cargando"
+      },
+      {
+        "name": "Golf",
+        "address": "Bulevar General Artigas y Errazquin",
+        "lat": -34.927901,
+        "lng": -56.161484,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 3,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "CHAdeMO",
+            "power": 50,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 50,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Mariscala",
+        "address": "Ruta 8 Km. 182,000, 30000 Lavalleja, Departamento de Lavalleja",
+        "lat": -34.046532,
+        "lng": -54.782152,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Lavalleja",
+        "city": "Mariscala",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Rio Branco",
+        "address": "Ruta 26 km 84",
+        "lat": -32.598919,
+        "lng": -53.416144,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Cerro Largo",
+        "city": "Río Branco",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Melo",
+        "address": "18 de Julio y Ejido",
+        "lat": -32.363165,
+        "lng": -54.166607,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Cerro Largo",
+        "city": "Melo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Caraguatá",
+        "address": "Ruta 26 km 355",
+        "lat": -32.232676,
+        "lng": -54.966438,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Tacuarembó",
+        "city": "Caraguatá",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Piedra del Toro",
+        "address": "Ruta 8 Km. 41.500, 15600 Piedra del Toro, Departamento de Canelones",
+        "lat": -34.694035,
+        "lng": -55.856194,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Piedra del Toro",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Florida",
+        "address": "Ruta 5 y 56 , Florida",
+        "lat": -34.096919,
+        "lng": -56.196372,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Florida",
+        "city": "Florida",
+        "status": "Cargando"
+      },
+      {
+        "name": "CETEC Norte UTE - Paso de los Toros",
+        "address": "Atanasio Sierra y Manuel Oribe",
+        "lat": -32.813112,
+        "lng": -56.503748,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Tacuarembó",
+        "city": "Paso de los Toros",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza 33 Orientales",
+        "address": "Juan Carlos Gomez esq. Artigas",
+        "lat": -31.387629,
+        "lng": -57.970822,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Salto",
+        "city": "Salto",
+        "status": "Cargando"
+      },
+      {
+        "name": "Termas del Arapey",
+        "address": "Brasil esq. Uruguay",
+        "lat": -30.9471624,
+        "lng": -57.5222452,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Salto",
+        "city": "Arapey",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza de Chamizo",
+        "address": "Facundo Fernandez, entre 18 de Julio y 25 de Agosto",
+        "lat": -34.24366,
+        "lng": -55.917378,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Florida",
+        "city": "Chamizo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Almenara Mall",
+        "address": "Ruta Gral. Líber Seregni km 22,500",
+        "lat": -34.826103,
+        "lng": -55.997272,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Ciudad de la Costa",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Sarandí Durazno",
+        "address": "General Artigas entre Luis Alberto de Herrera y 19 de Abril",
+        "lat": -33.37675,
+        "lng": -56.524798,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Durazno",
+        "city": "Durazno",
+        "status": "Cargando"
+      },
+      {
+        "name": "La Cumparsita",
+        "address": "La Cumparsita esq. Ejido",
+        "lat": -34.914665,
+        "lng": -56.185604,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Solanas",
+        "address": "Ruta 93 Km. 118,000",
+        "lat": -34.878541,
+        "lng": -55.053068,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Maldonado",
+        "status": "Cargando"
+      },
+      {
+        "name": "Punta del Este - Parada 3",
+        "address": "Bvar Artigas y Av Francisco Salazar",
+        "lat": -34.95026,
+        "lng": -54.937023,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          },
+          {
+            "count": 1,
+            "type": "CHAdeMO",
+            "power": 50,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 50,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "Punta del Este - Parada 5",
+        "address": "Lunas de Oro y Avda. Roosevelt",
+        "lat": -34.942108,
+        "lng": -54.932418,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          },
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP José Ignacio",
+        "address": "Ruta 10 y Camino Ing. Sainz Martinez",
+        "lat": -34.835025,
+        "lng": -54.644789,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          },
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "José Ignacio",
+        "status": "Cargando"
+      },
+      {
+        "name": "Terminal Piriápolis",
+        "address": "Santos Negro González y Misiones",
+        "lat": -34.86203,
+        "lng": -55.274783,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Piriápolis",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza San Martín",
+        "address": "Soldados Orientales de S. Martín esq. Uruguayana",
+        "lat": -34.875475,
+        "lng": -56.200208,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Estadio Centenario",
+        "address": "Av. Dr. Américo Ricaldoni esq. Av. Italia",
+        "lat": -34.8917115,
+        "lng": -56.1543685,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Colón",
+        "address": "Vidiella entre Av. Eugenio Garzón y A. Passadore",
+        "lat": -34.805776,
+        "lng": -56.221745,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Constancia",
+        "address": "Ruta 3 km 384",
+        "lat": -32.20649,
+        "lng": -58.002403,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Paysandú",
+        "city": "Constancia",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Trinidad - Ruta 3",
+        "address": "Ruta 3 esq. Ruta 14",
+        "lat": -33.52803,
+        "lng": -56.894656,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Flores",
+        "city": "Trinidad",
+        "status": "Cargando"
+      },
+      {
+        "name": "Policia Caminera Ruta 17",
+        "address": "Ruta 17 esq. Ruta 8",
+        "lat": -33.210155,
+        "lng": -54.385449,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Treinta y Tres",
+        "city": "Treinta y tres",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP América Tacuarembó",
+        "address": "Av. Pablo Ríos y Juan Manuel Blanes",
+        "lat": -31.7262242,
+        "lng": -55.9718609,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Tacuarembó",
+        "city": "Tacuarembó",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Artigas - Rivera",
+        "address": "Agraciada y Gral. Artigas",
+        "lat": -30.899893,
+        "lng": -55.5410613,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rivera",
+        "city": "Rivera",
+        "status": "Cargando"
+      },
+      {
+        "name": "Termas de Daymán",
+        "address": "Av Paysandu esq. Ruta 3",
+        "lat": -31.4558512,
+        "lng": -57.9096333,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Salto",
+        "city": "Salto",
+        "status": "Cargando"
+      },
+      {
+        "name": "Cardal",
+        "address": "Treinta y Tres Orientales y Ruta 77",
+        "lat": -34.2983661,
+        "lng": -56.391217,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Florida",
+        "city": "Cardal",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Asamblea",
+        "address": "Gral. Venancio Flores esq. Alejandro Gallinal",
+        "lat": -34.1012235,
+        "lng": -56.2143769,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Florida",
+        "city": "Florida",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza de los Niños",
+        "address": "Juan Antonio Lavalleja y Héctor Princivalle",
+        "lat": -30.4047844,
+        "lng": -56.4629124,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Artigas",
+        "city": "Artigas",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Artigas",
+        "address": "Gral. eugenio Garzón y Eduardo Castro",
+        "lat": -30.3981813,
+        "lng": -56.4641254,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Artigas",
+        "city": "Artigas",
+        "status": "Cargando"
+      },
+      {
+        "name": "Terminal San Carlos",
+        "address": "José Enrique Rodó esq. Nuble González Olaza",
+        "lat": -34.7934735,
+        "lng": -54.9239085,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Maldonado",
+        "city": "San Carlos ",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Independencia Durazno",
+        "address": "Brig. Gral. Fructuoso Rivera entre Eusebio Piriz y Brig. Gral. Manuel Oribe",
+        "lat": -33.38006,
+        "lng": -56.522342,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Durazno",
+        "city": "Durazno",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Constitución Trinidad",
+        "address": "Dr. Luis Alberto de Herrera esq. Fray Ubeda",
+        "lat": -33.517081,
+        "lng": -56.898402,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Flores",
+        "city": "Trinidad",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Pedro Poveda DC",
+        "address": "Enrique García Peña s/n",
+        "lat": -34.870495,
+        "lng": -56.187443,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Ecoparque Talice",
+        "address": "Ruta 3 km 193",
+        "lat": -33.508249,
+        "lng": -56.937011,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Flores",
+        "city": "Trinidad",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza San Jacinto",
+        "address": "Maria Vera esq. Cayetano Gonzalez",
+        "lat": -34.5441427,
+        "lng": -55.8711889,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "San Jacinto",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza de Toros de Colonia",
+        "address": "Juan Manuel Caballero y Río de la Plata",
+        "lat": -34.437433,
+        "lng": -57.8650452,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Colonia",
+        "city": "Colonia del Sacramento",
+        "status": "Cargando"
+      },
+      {
+        "name": "Terminal Fray Bentos",
+        "address": "José Pedro Varela esquina 18 de Julio",
+        "lat": -33.123088,
+        "lng": -58.304784,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Fray Bentos",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Los Fundadores",
+        "address": "Berna esq. 25 de Agosto",
+        "lat": -34.2848757,
+        "lng": -57.2338976,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Nueva Helvecia",
+        "status": "Cargando"
+      },
+      {
+        "name": "Colonia Valdense",
+        "address": "Ruta 1 vieja esq. Timbó",
+        "lat": -34.3371311,
+        "lng": -57.2530074,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Colonia Valdense",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Rivera, Fray Bentos",
+        "address": "Rincón esquina Alzaibar",
+        "lat": -33.130505,
+        "lng": -58.29644,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Fray Bentos",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Romay, Nuevo Berlín",
+        "address": "Av. Carlos Romay, esquina Rep. Argentina",
+        "lat": -32.980167,
+        "lng": -58.06165,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Nuevo Berlín",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Libertad, San Javier",
+        "address": "18 de Julio esquina José Pedro Varela",
+        "lat": -32.665965,
+        "lng": -58.134127,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río Negro",
+        "city": "San Javier",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza De la Familia - Carmelo ",
+        "address": "19 de Abril esquina Ansina",
+        "lat": -33.989815,
+        "lng": -58.281705,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Carmelo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Artigas La Floresta",
+        "address": "Avenida General Artigas esquina San José",
+        "lat": -34.759725,
+        "lng": -55.672995,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "La Floresta",
+        "status": "Cargando"
+      },
+      {
+        "name": "Parking Cinemateca",
+        "address": "Bartolomé Mitre 1224",
+        "lat": -34.908805,
+        "lng": -56.20082,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Gremial del Taxi CPATU",
+        "address": "Burgues 3143",
+        "lat": -34.868071,
+        "lng": -56.186521,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "San José DC 1",
+        "address": "Emilio Frugoni esquina Ruta 11",
+        "lat": -34.342544,
+        "lng": -56.70298,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "San José",
+        "city": "San José de Mayo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Panda Free Shop",
+        "address": "Juanita Arismendi de Imicoz esq. Ruta 26",
+        "lat": -32.5823359,
+        "lng": -53.3785893,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Cerro Largo",
+        "city": "Rio Branco",
+        "status": "Cargando"
+      },
+      {
+        "name": "San Ramón",
+        "address": "Baltazar. Brum esq. Av. José Batlle y Ordóñez",
+        "lat": -34.288229,
+        "lng": -55.958338,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "San Ramón",
+        "status": "Cargando"
+      },
+      {
+        "name": "Libertad",
+        "address": "Maestro Víctor Banchero y Wilson Ferreira Aldunate",
+        "lat": -34.6361232,
+        "lng": -56.6227858,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "San José",
+        "city": "Libertad",
+        "status": "Cargando"
+      },
+      {
+        "name": "Ciudad Rodríguez",
+        "address": "Ciudad Rodriguez - Peaje Viejo",
+        "lat": -34.3989889,
+        "lng": -56.543087,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "San José",
+        "city": "Ciudad Rodríguez",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza José Gervasio Artigas San José",
+        "address": "Asamblea entre Avda. Manuel Oribe y Monseñor Ricardo Di Martino",
+        "lat": -34.338951,
+        "lng": -56.707558,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "San José",
+        "city": "San José de Mayo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Ciudad del Plata",
+        "address": "Ruta 1 vieja km 31,800",
+        "lat": -34.737758,
+        "lng": -56.44172,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "San José",
+        "city": "Ciudad del Plata",
+        "status": "Cargando"
+      },
+      {
+        "name": "Ecilda Paullier",
+        "address": "Ruta 1 vieja esquina Ruta 11",
+        "lat": -34.3625884,
+        "lng": -57.0574784,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "San José",
+        "city": "Ecilda Paullier",
+        "status": "Cargando"
+      },
+      {
+        "name": "Macromercado San Martín",
+        "address": "Dr. Jose Pugnalini esq. Av. Gral. San Martin",
+        "lat": -34.86701,
+        "lng": -56.17997,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 7.4,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 7.4,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Francolino Paysandú",
+        "address": "Av. España y Juncal",
+        "lat": -32.3183645,
+        "lng": -58.0743682,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Paysandú",
+        "city": "Paysandú",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Rivera y Bolivia",
+        "address": "Av. Rivera esquina Av. Bolivia",
+        "lat": -34.890595,
+        "lng": -56.07239,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Vieja Usina UTE - Treinta y Tres",
+        "address": "Manuel Calleros y Las Tropas",
+        "lat": -33.2346165,
+        "lng": -54.3985881,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Treinta y Tres",
+        "city": "Treinta y Tres",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Tupambaé",
+        "address": "Ruta 7 y Uruguay",
+        "lat": -32.8384494,
+        "lng": -54.7620305,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Cerro Largo",
+        "city": "Tupambaé",
+        "status": "Cargando"
+      },
+      {
+        "name": "Estadio Martínez Monegal",
+        "address": "Av. Martínez Monegal y Juan Antonio Lavalleja",
+        "lat": -34.5226273,
+        "lng": -56.2752567,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Canelones",
+        "status": "Cargando"
+      },
+      {
+        "name": "Minas de Corrales",
+        "address": "Avenida Davison y Dr. Ross",
+        "lat": -31.5706537,
+        "lng": -55.4714895,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Rivera",
+        "city": "Minas de Corrales",
+        "status": "Cargando"
+      },
+      {
+        "name": "Tranqueras - Plaza Los 33 Orientales",
+        "address": "Dr. Dellepiane y Brasil",
+        "lat": -31.1907841,
+        "lng": -55.7671658,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Rivera",
+        "city": "Tranqueras",
+        "status": "Cargando"
+      },
+      {
+        "name": "Macromercado Rivera",
+        "address": "Julio M. Sosa esquina Frugoni",
+        "lat": -30.9204939,
+        "lng": -55.5398168,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rivera",
+        "city": "Rivera",
+        "status": "Cargando"
+      },
+      {
+        "name": "Barrio Dos Naciones",
+        "address": "Calle C esq. Apolon de Mirbeck",
+        "lat": -31.36716,
+        "lng": -57.960458,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Salto",
+        "city": "Salto",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Paul Harris",
+        "address": "Barradas y Av. Italia",
+        "lat": -34.8763551,
+        "lng": -56.0377477,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Terminal del Cerro",
+        "address": "Pedro Castellino y Ramón Tabárez",
+        "lat": -34.873082,
+        "lng": -56.248884,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Parque de Minas",
+        "address": "Ruta 12 km 347.500",
+        "lat": -34.4254385,
+        "lng": -55.1938313,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          },
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Lavalleja",
+        "city": "Minas",
+        "status": "Cargando"
+      },
+      {
+        "name": "Rincón de Valentín",
+        "address": "Ruta 31 km 75",
+        "lat": -31.2809458,
+        "lng": -57.1992881,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Salto",
+        "city": "Rincón de Valentín",
+        "status": "Cargando"
+      },
+      {
+        "name": "Estadio Parque Artigas",
+        "address": "Bvlr. Artigas y 25 de Mayo",
+        "lat": -32.3224331,
+        "lng": -58.0716883,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Paysandú",
+        "city": "Paysandú",
+        "status": "Cargando"
+      },
+      {
+        "name": "Hospital BSE",
+        "address": "Av. José Pedro Varela 3420",
+        "lat": -34.86731,
+        "lng": -56.160038,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Artigas - Mercedes",
+        "address": "Gral. José G. Artigas y Don Bosco",
+        "lat": -33.2565621,
+        "lng": -58.0277748,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Soriano",
+        "city": "Mercedes",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Sauce",
+        "address": "Treinta y Tres esquina Antonio Ledesma",
+        "lat": -34.646658,
+        "lng": -56.058881,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Sauce",
+        "status": "Cargando"
+      },
+      {
+        "name": "La Barra",
+        "address": "Los Destinos y Bartolomé Hidalgo",
+        "lat": -34.9133183,
+        "lng": -54.8618576,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "Centro de Atención Turística Atlántida",
+        "address": "Calle 2 esq. Calle 3",
+        "lat": -34.7691071,
+        "lng": -55.7644038,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Atlántida",
+        "status": "Cargando"
+      },
+      {
+        "name": "Hospital de Pan de Azúcar",
+        "address": "Francisco Bonilla y Rincón",
+        "lat": -34.7787262,
+        "lng": -55.2240453,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Pan de Azúcar",
+        "status": "Cargando"
+      },
+      {
+        "name": "Batoví",
+        "address": "Batoví esquina Dr. Luis P. Lenguas",
+        "lat": -34.890289,
+        "lng": -56.185279,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Junta Local Centenario",
+        "address": "Bvar. Artigas esq. Ruta 5",
+        "lat": -32.83409,
+        "lng": -56.496295,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Durazno",
+        "city": "Pueblo Centenario",
+        "status": "Cargando"
+      },
+      {
+        "name": "Carlos Reyles",
+        "address": "Manuel Oribe esquina Estanislao del Portillo",
+        "lat": -33.056951,
+        "lng": -56.47604,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Durazno",
+        "city": "Carlos Reyles",
+        "status": "Cargando"
+      },
+      {
+        "name": "Hospital de Ojos Saint Bois",
+        "address": "Camino Fauquet y Guanahani",
+        "lat": -34.7889098,
+        "lng": -56.2417871,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Colonia Shopping",
+        "address": "Franklin Roosevelt y Fray Bentos",
+        "lat": -34.4661563,
+        "lng": -57.835495,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Colonia del Sacramento",
+        "status": "Cargando"
+      },
+      {
+        "name": "447 Duty Free Shop",
+        "address": "Av. Jose G. Artigas",
+        "lat": -31.8678235,
+        "lng": -54.1667246,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Cerro Largo",
+        "city": "Acegua",
+        "status": "Cargando"
+      },
+      {
+        "name": "Shopping Las Piedras",
+        "address": "Av. José Gervasio Artigas esq. Francisca Arnal de Artigas",
+        "lat": -34.7257925,
+        "lng": -56.2027049,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Las Piedras",
+        "status": "Cargando"
+      },
+      {
+        "name": "Montevideo Shopping",
+        "address": "Av. Luis A. de Herrera 1290",
+        "lat": -34.903968,
+        "lng": -56.136669,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Artigas Florencio Sánchez",
+        "address": "Calle Artigas, esquina 19 de Abril.",
+        "lat": -33.8758797,
+        "lng": -57.3708861,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Florencio Sánchez",
+        "status": "Cargando"
+      },
+      {
+        "name": "Av. Fco. Soca y Libertad",
+        "address": "Av. Fransisco Soca esq. Libertad",
+        "lat": -34.908627,
+        "lng": -56.153853,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Rocha - Oficina de Turismo",
+        "address": "Ruta 9 y Ruta 15",
+        "lat": -34.488761,
+        "lng": -54.320398,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rocha",
+        "city": "Rocha",
+        "status": "Cargando"
+      },
+      {
+        "name": "La Pedrera",
+        "address": "Pitanga y Av. Principal",
+        "lat": -34.591214,
+        "lng": -54.127803,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Rocha",
+        "city": "La Pedrera",
+        "status": "Cargando"
+      },
+      {
+        "name": "Centro Cultural La Paloma",
+        "address": "Dr. Javier Barrios Amorín y Paloma",
+        "lat": -34.658477,
+        "lng": -54.154971,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Rocha",
+        "city": "La Paloma",
+        "status": "Cargando"
+      },
+      {
+        "name": "Casino Parque Hotel",
+        "address": "Dr. Luis Piera y Lauro Müller",
+        "lat": -34.9128478,
+        "lng": -56.1696179,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CHAdeMO",
+            "power": 50,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 50,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 3,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Parque del Plata",
+        "address": "Mario Ferreira y Calle 1",
+        "lat": -34.769568,
+        "lng": -55.7294,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Canelones",
+        "city": "Parque del Plata",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Mercedes",
+        "address": "Ruta 2 km 278,5",
+        "lat": -33.26307,
+        "lng": -58.017944,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Soriano",
+        "city": "Mercedes",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Atlántida",
+        "address": "Roger Balet esq. Republica de Chile",
+        "lat": -34.77453,
+        "lng": -55.76064,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Canelones",
+        "city": "Atlantida",
+        "status": "Cargando"
+      },
+      {
+        "name": "Hotel NH Montevideo",
+        "address": "Carlos A. Miles y Misiones",
+        "lat": -34.909845,
+        "lng": -56.204714,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Macromercado Carrasco",
+        "address": "Avenida Al Parque 2495",
+        "lat": -34.870062,
+        "lng": -56.022234,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 7.4,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Canelones",
+        "city": "Ciudad de la Costa",
+        "status": "Cargando"
+      },
+      {
+        "name": "Skatepark Carrasco",
+        "address": "Costa Rica y Eduardo Couture",
+        "lat": -34.8843476,
+        "lng": -56.0580876,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Ruta 1 y Camino Flores",
+        "address": "Ruta 1 y Camino Flores",
+        "lat": -34.818895,
+        "lng": -56.344162,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Paso de la Arena",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Sarandí Grande",
+        "address": "Ruta 5 km 139.5 esq. Profesor Martínez García",
+        "lat": -33.734268,
+        "lng": -56.32209,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Florida",
+        "city": "Sarandí Grande",
+        "status": "Cargando"
+      },
+      {
+        "name": "Macromercado Maldonado",
+        "address": "Bulevar Artigas y Cachimba del Rey",
+        "lat": -34.915348,
+        "lng": -54.944933,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Maldonado",
+        "status": "Cargando"
+      },
+      {
+        "name": "Municipio Vergara",
+        "address": "Jacinto Ruiz esq. Dionisio Coronel",
+        "lat": -32.937824,
+        "lng": -53.937334,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Treinta y Tres",
+        "city": "Vergara",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Sauce",
+        "address": "General Artigas esq. Ruta 107",
+        "lat": -34.650089,
+        "lng": -56.064885,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Canelones",
+        "city": "Sauce",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Constitución Fray Bentos",
+        "address": "Treinta y Tres entre 18 de Julio y Rincón",
+        "lat": -33.116197,
+        "lng": -58.313329,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Fray Bentos",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP Ruta 39 y Perimetral",
+        "address": "Ruta 39 y Ruta Perimetral",
+        "lat": -34.881119,
+        "lng": -54.950266,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Maldonado",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Casupá",
+        "address": "Luis Alberto de Herrera y Av. Pons y Juani",
+        "lat": -34.1003379,
+        "lng": -55.6517628,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Florida",
+        "city": "Casupá",
+        "status": "Cargando"
+      },
+      {
+        "name": "ANCAP 18 de Julio - Tacuarembó",
+        "address": "18 de Julio y José Catalogne",
+        "lat": -31.7184905,
+        "lng": -55.9856609,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Tacuarembó",
+        "city": "Tacuarembó",
+        "status": "Cargando"
+      },
+      {
+        "name": "Tambores",
+        "address": "Francisco Lascano y Calle 27",
+        "lat": -31.8769125,
+        "lng": -56.240687,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Paysandú",
+        "city": "Tambores",
+        "status": "Cargando"
+      },
+      {
+        "name": "UTEC Rivera",
+        "address": "Guido Machado Brum esquina calle de entrada a UTEC",
+        "lat": -30.9324033,
+        "lng": -55.5476072,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rivera",
+        "city": "Rivera",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Pando",
+        "address": "Ituzaingó esq. Gral. José G. Artigas",
+        "lat": -34.7212569,
+        "lng": -55.959839,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Canelones",
+        "city": "Pando",
+        "status": "Cargando"
+      },
+      {
+        "name": "La Paloma",
+        "address": "Av. de la Iglesia entre Av. Del Navío y Av. Sirio",
+        "lat": -34.663984,
+        "lng": -54.157528,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rocha",
+        "city": "La Paloma",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Samuel Lafone",
+        "address": "Ruperto Perez Martinez y Heredia",
+        "lat": -34.867971,
+        "lng": -56.2367881,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Batlle y Ordóñez",
+        "address": "Treinta y Tres y Av. Carlos Lecueder",
+        "lat": -30.4035965,
+        "lng": -56.4691187,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Artigas",
+        "city": "Artigas",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Rivera Minas",
+        "address": "Ituzaingó esquina Franklin Delano Roosevelt",
+        "lat": -34.37563,
+        "lng": -55.242589,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Lavalleja",
+        "city": "Minas",
+        "status": "Cargando"
+      },
+      {
+        "name": "San Rafael",
+        "address": "Acapulco y Av. Mar del Plata",
+        "lat": -34.9408281,
+        "lng": -54.9162997,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza de Deportes de Pando",
+        "address": "Jose Pedro Varela esquina Ruta 8",
+        "lat": -34.723076,
+        "lng": -55.957135,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "",
+            "power": 0,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Canelones",
+        "city": "Pando",
+        "status": "Cargando"
+      },
+      {
+        "name": "UAM",
+        "address": "Camino Perez y Ruta 5",
+        "lat": -34.8203761,
+        "lng": -56.2699141,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Palacio de la Luz - Paraguay",
+        "address": "Paraguay esq. Aguilar",
+        "lat": -34.885124,
+        "lng": -56.194744,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "La Paloma Durazno",
+        "address": "Macaria Domínguez esquina Severino Cristiano López",
+        "lat": -32.727884,
+        "lng": -55.576405,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Durazno",
+        "city": "La Paloma",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Artigas Villa del Carmen",
+        "address": "Dr. Ricardo J. Schunk s/n",
+        "lat": -33.241286,
+        "lng": -56.013596,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Durazno",
+        "city": "Villa del Carmen",
+        "status": "Cargando"
+      },
+      {
+        "name": "Estadio Municipal Parque Liebig's",
+        "address": "Brasil esquina Lynch",
+        "lat": -33.119171,
+        "lng": -58.318528,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 43,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Fray Bentos",
+        "status": "Cargando"
+      },
+      {
+        "name": "Shopping Nuevocentro",
+        "address": "Br. Artigas y Pampillo y Novas",
+        "lat": -34.869657,
+        "lng": -56.169246,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "CHUY DFA ",
+        "address": "Avenida Brasil 267",
+        "lat": -33.693156,
+        "lng": -53.448956,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rocha",
+        "city": "Chuy",
+        "status": "Cargando"
+      },
+      {
+        "name": "Museo Zorrilla",
+        "address": "Jose Zorrilla de San Martin 96",
+        "lat": -34.9277636,
+        "lng": -56.1598697,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Terminal del Cerro 2",
+        "address": "Pedro Castellino y Ramón Tabárez",
+        "lat": -34.873204,
+        "lng": -56.249964,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Duty Free Shop Fray Bentos",
+        "address": "Estacionamiento Duty Free Shop",
+        "lat": -33.113267,
+        "lng": -58.24494,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Río negro",
+        "city": "Puente Internacional  San Martín",
+        "status": "Cargando"
+      },
+      {
+        "name": "Pinamar DC",
+        "address": "Avenida Acceso y Ruta Interbalnearia",
+        "lat": -34.7787832,
+        "lng": -55.8615145,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Costa de Oro",
+        "status": "Cargando"
+      },
+      {
+        "name": "El Pinar",
+        "address": "Av. Costanera José Pepe D' Elia, esquina Av. Naciones Unidas",
+        "lat": -34.804275,
+        "lng": -55.90957,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Ciudad de la Costa",
+        "status": "Cargando"
+      },
+      {
+        "name": "Novillo Alegre Punta",
+        "address": "Av. al Paso de la Cadena esq. Av. Roosevelt",
+        "lat": -34.935722,
+        "lng": -54.937054,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "Municipio Punta del Este",
+        "address": "Calle 30 esquina Gorlero",
+        "lat": -34.9595654,
+        "lng": -54.9400916,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 3,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "Plaza Constitución Paysandú",
+        "address": "Florida esquina Juan Zorrilla de San Martín ",
+        "lat": -32.316711,
+        "lng": -58.081011,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Paysandú",
+        "city": "Paysandú",
+        "status": "Cargando"
+      },
+      {
+        "name": "TaTa Paysandú",
+        "address": "Washington 1673",
+        "lat": -32.315113,
+        "lng": -58.069285,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Paysandú",
+        "city": "Paysandú",
+        "status": "Cargando"
+      },
+      {
+        "name": "Ancap Aeropuerto GB/T",
+        "address": "Ruta 101 casi Av. De las Americas",
+        "lat": -34.8447098,
+        "lng": -56.0196459,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "GB/T",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Canelones",
+        "city": "Ciudad de ",
+        "status": "Cargando"
+      },
+      {
+        "name": "Terminal Tarariras",
+        "address": "Gutirerrez Ruiz esq. Ruta 22",
+        "lat": -34.264543,
+        "lng": -57.610165,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Colonia",
+        "city": "Tarariras",
+        "status": "Cargando"
+      },
+      {
+        "name": "Estación Cantegril",
+        "address": "Patria Vieja & Avenida Franklin Delano Roosevelt",
+        "lat": -34.923599,
+        "lng": -54.951846,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "Centra Punta del Tigre A",
+        "address": "Camino Calcagno",
+        "lat": -34.75001,
+        "lng": -56.543792,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [],
+        "department": "San José",
+        "city": "Colonia Wilson",
+        "status": "Cargando"
+      },
+      {
+        "name": "Lascano",
+        "address": "Walter Montaldo esquina Ruta 15",
+        "lat": -33.679473,
+        "lng": -54.210895,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rocha",
+        "city": "Lascano",
+        "status": "Cargando"
+      },
+      {
+        "name": "Municipio de Young",
+        "address": "25 de Agosto esquina Vía Ferrocarril ",
+        "lat": -32.699762,
+        "lng": -57.627834,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Young",
+        "status": "Cargando"
+      },
+      {
+        "name": "TaTa Mercedes",
+        "address": "José Enrique Rodó esquina General Artigas",
+        "lat": -33.250149,
+        "lng": -58.028526,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Soriano",
+        "city": "Mercedes",
+        "status": "Cargando"
+      },
+      {
+        "name": "TaTa Melo",
+        "address": "Villanueva Saravia Pinto esquina Treinta y Tres",
+        "lat": -32.363814,
+        "lng": -54.165666,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Cerro Largo",
+        "city": "Melo",
+        "status": "Cargando"
+      },
+      {
+        "name": "TaTa Florida",
+        "address": "Fructuoso Rivera 3320 entre Dr. González y Manuel Calleros ",
+        "lat": -34.095979,
+        "lng": -56.214462,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Florida",
+        "city": "Florida",
+        "status": "Cargando"
+      },
+      {
+        "name": "El Eucalipto",
+        "address": "Ruta 26 km 99",
+        "lat": -31.9025773,
+        "lng": -57.2672754,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Paysandú",
+        "city": "El Eucalipto ",
+        "status": "Cargando"
+      },
+      {
+        "name": "TaTa Tacuarembó",
+        "address": "Pte. Joaquín Suarez esq. Gral. Venancio Flores",
+        "lat": -31.712854,
+        "lng": -55.977657,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Tacuarembo",
+        "city": "Tacuarembo",
+        "status": "Cargando"
+      },
+      {
+        "name": "TaTa Maldonado",
+        "address": "25 de Mayo 600",
+        "lat": -34.909077,
+        "lng": -54.955319,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Maldonado",
+        "status": "Cargando"
+      },
+      {
+        "name": "Automóvil Club del Uruguay",
+        "address": "Zelmar Michelini, esq 3 de febrero - ",
+        "lat": -34.913647,
+        "lng": -54.960424,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Maldonado",
+        "city": "Punta del Este",
+        "status": "Cargando"
+      },
+      {
+        "name": "Parque Lineal Young",
+        "address": "Rincón esquina Ruta 3",
+        "lat": -32.703046,
+        "lng": -57.632967,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 1,
+            "type": "CCS2",
+            "power": 30,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          },
+          {
+            "count": 2,
+            "type": "Tipo 2",
+            "power": 22,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": false
+          }
+        ],
+        "department": "Río Negro",
+        "city": "Young",
+        "status": "Cargando"
+      },
+      {
+        "name": "Palacio de la Luz - Aguilar",
+        "address": "Gral. Fausto Aguilar entre Paraguay y Mendoza",
+        "lat": -34.885144,
+        "lng": -56.195179,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Palacio de la Luz DC Mendoza",
+        "address": "Mendoza esq. Fausto Aguilar",
+        "lat": -34.8853358,
+        "lng": -56.1955046,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 4,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "Palacio Legislativo DC",
+        "address": "Av. de las Leyes y Colombia",
+        "lat": -34.8903103,
+        "lng": -56.1879823,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "TaTa Rivera",
+        "address": "Agustin Ortega esq. Av. Sarandi",
+        "lat": -30.906018,
+        "lng": -55.5444463,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Rivera",
+        "city": "Rivera",
+        "status": "Cargando"
+      },
+      {
+        "name": "Banco Central del Uruguay",
+        "address": "Florida esq. Av Uruguay",
+        "lat": -34.9033516,
+        "lng": -56.1996596,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Montevideo",
+        "city": "Montevideo",
+        "status": "Cargando"
+      },
+      {
+        "name": "TaTa Durazno",
+        "address": "Wilson Ferreira Aldunate 419",
+        "lat": -33.386637,
+        "lng": -56.524468,
+        "services": null,
+        "attendance": null,
+        "connectorStatusAcc": [
+          {
+            "count": 2,
+            "type": "CCS2",
+            "power": 60,
+            "status": 1,
+            "statusDetail": "Busy",
+            "hose": true
+          }
+        ],
+        "department": "Durazno",
+        "city": "Durazno",
+        "status": "Cargando"
+      }
+    ],
+    "messages": [],
+    "success": true,
+    "errors": [],
+    "result": 0
+  }

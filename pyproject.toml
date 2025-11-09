@@ -1,0 +1,12 @@
+[project]
+name = "ev-routing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "osmnx>=2.0.6",
+    "questionary>=2.1.1",
+    "scikit-learn>=1.7.2",
+]
