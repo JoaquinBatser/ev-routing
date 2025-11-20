@@ -7,16 +7,14 @@ import questionary
 from graph.graph_setup import load_graph
 from graph.uruguay_cities import get_nearest_node as get_nearest_city_node, list_cities
 from graph.montevideo_barrios import get_nearest_node as get_nearest_barrio_node, list_barrios
-from algorithms.dijkstra import dijkstra
 from algorithms.astar import a_star
 from algorithms.path_reconstruction import reconstruct_path
-from algorithms.dijkstra_ev import dijkstra_ev
 from algorithms.astar_ev import a_star_ev
 
 
 def main():
     print("=" * 60)
-    print("  ALGORITMOS DE BUSQUEDA - A* y Dijkstra")
+    print("  ALGORITMOS DE BUSQUEDA - A* ")
     print("=" * 60)
     # Seleccionar área a cargar
     area_choice = questionary.select(
@@ -45,7 +43,7 @@ def main():
     # Seleccionar algoritmo
     algorithm_choice = questionary.select(
         "Selecciona el algoritmo de pathfinding:",
-        choices=["A*", "Dijkstra", "Dijkstra EV", "A* EV"],
+        choices=["A*", "A* EV"],
     ).ask()
 
     if not algorithm_choice:
@@ -141,10 +139,6 @@ def main():
     match algorithm_choice:
         case "A*":
             algorithm_name = "a_star"
-        case "Dijkstra":
-            algorithm_name = "dijkstra"
-        case "Dijkstra EV":
-            algorithm_name = "dijkstra_ev"
         case "A* EV":
             algorithm_name = "a_star_ev"
         case _:
@@ -180,27 +174,6 @@ def main():
                 G,
                 start,
                 end,
-                plot=False,
-                save_dir=save_dir,
-                algorithm_name=algorithm_name,
-                save_frames=save_frames,
-            )
-        case "Dijkstra":
-            dijkstra(
-                G,
-                start,
-                end,
-                plot=False,
-                save_dir=save_dir,
-                algorithm_name=algorithm_name,
-                save_frames=save_frames,
-            )
-        case "Dijkstra EV":
-            dijkstra_ev(
-                G,
-                start,
-                end,
-                chargers_amount=chargers_amount,
                 plot=False,
                 save_dir=save_dir,
                 algorithm_name=algorithm_name,
