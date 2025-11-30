@@ -1,257 +1,97 @@
-"""Punto de entrada principal del programa."""
+"""
+Punto de entrada principal del proyecto EV Routing.
+Ejecuta este archivo para acceder a todas las funcionalidades.
+"""
 
-import random
-import os
-import subprocess
+import sys
 import questionary
-from graph.graph_setup import load_graph
-from graph.uruguay_cities import get_nearest_node as get_nearest_city_node, list_cities
-from graph.montevideo_barrios import get_nearest_node as get_nearest_barrio_node, list_barrios
-from algorithms.astar import a_star
-from algorithms.path_reconstruction import reconstruct_path
-from algorithms.astar_ev import a_star_ev
+import colorama
+
+# Inicializar colorama para soporte de ANSI en Windows
+colorama.init()
+
+# Forzar UTF-8 en stdout para que los spinners de Halo se vean bien
+if sys.stdout.encoding.lower() != 'utf-8':
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except AttributeError:
+        pass  # Python < 3.7 o entorno limitado
+
+
+def run_benchmark():
+    print("\nEjecutando benchmark completo...\n")
+    import benchmark
+    benchmark.main()
+
+
+def run_analysis():
+    import os
+    print("\nAnalizando resultados...\n")
+    
+    # Buscar el archivo resultados.json más reciente
+    output_dir = "output/benchmark_heuristicas"
+    if not os.path.exists(output_dir):
+        print("No se encontró la carpeta de resultados.")
+        print("   Primero ejecuta el benchmark (opción 1).")
+        return
+    
+    # Buscar subdirectorios ordenados por fecha
+    subdirs = [d for d in os.listdir(output_dir) if os.path.isdir(os.path.join(output_dir, d))]
+    if not subdirs:
+        print("No hay resultados para analizar.")
+        return
+    
+    subdirs.sort(reverse=True)
+    latest_dir = os.path.join(output_dir, subdirs[0])
+    resultados_path = os.path.join(latest_dir, "resultados.json")
+    
+    if not os.path.exists(resultados_path):
+        print(f"No se encontró {resultados_path}")
+        return
+    
+    print(f"Usando resultados desde: {latest_dir}\n")
+    
+    import analizar_resultados
+    sys.argv = ["analizar_resultados.py", resultados_path]
+    analizar_resultados.main()
+
+
+def run_battery_test():
+    print("\nEjecutando test de visualización...\n")
+    import test_battery_colors
 
 
 def main():
-    print("=" * 60)
-    print("  ALGORITMOS DE BUSQUEDA - A* ")
-    print("=" * 60)
-    # Seleccionar área a cargar
-    area_choice = questionary.select(
-        "Selecciona el área del mapa a cargar:",
-        choices=[
-            "Uruguay completo (más lento, ~2-5 min primera vez)",
-            "Montevideo (rápido, ideal para testing)"
-        ],
-    ).ask()
-    
-    if not area_choice:
-        print("Operación cancelada.")
-        return
-    
-    # Determinar el lugar a cargar
-    if "Uruguay completo" in area_choice:
-        place_name = "Uruguay"
-    else:
-        place_name = "Montevideo, Uruguay"
-    
-    # Cargar el grafo
-    print(f"\nCargando grafo de {place_name}...")
-    G = load_graph(place_name)
-    print("Grafo cargado.\n")
+    print("=" * 80)
+    print("SISTEMA DE ROUTING PARA VEHÍCULOS ELÉCTRICOS")
+    print("=" * 80)
 
-    # Seleccionar algoritmo
-    algorithm_choice = questionary.select(
-        "Selecciona el algoritmo de pathfinding:",
-        choices=["A*", "A* EV"],
-    ).ask()
-
-    if not algorithm_choice:
-        print("Operación cancelada.")
-        return
-
-    # Seleccionar modo de selección de nodos
-    node_selection_mode = questionary.select(
-        "¿Cómo quieres seleccionar los nodos?",
-        choices=["Ciudades de Uruguay", "Nodos aleatorios"],
-    ).ask()
-
-    if not node_selection_mode:
-        print("Operación cancelada.")
-        return
-
-    # Seleccionar nodos según el modo elegido
-    if node_selection_mode == "Ciudades de Uruguay":
-        # Determinar si usar barrios de Montevideo o ciudades de Uruguay
-        if "Montevideo" in place_name and place_name != "Uruguay":
-            # Usar barrios de Montevideo
-            locations = list_barrios()
-            location_type = "barrio"
-            print("\nUsando barrios de Montevideo")
-        else:
-            # Usar ciudades de Uruguay
-            locations = list_cities()
-            location_type = "ciudad"
-            print("\nUsando ciudades de Uruguay")
-        
-        # Seleccionar origen
-        origin_location = questionary.select(
-            f"Selecciona el {location_type} de ORIGEN:",
-            choices=locations,
+    while True:
+        choice = questionary.select(
+            "Selecciona una opción:",
+            choices=[
+                "Ejecutar benchmark completo (A* vs Greedy)",
+                "Analizar resultados existentes",
+                "Test de visualización con colores de batería",
+                "Salir"
+            ]
         ).ask()
         
-        if not origin_location:
-            print("Operacion cancelada.")
-            return
+        if choice == "Ejecutar benchmark completo (A* vs Greedy)":
+            run_benchmark()
+        elif choice == "Analizar resultados existentes":
+            run_analysis()
+        elif choice == "Test de visualización con colores de batería":
+            run_battery_test()
+        elif choice == "Salir":
+            print("\n¡Hasta luego!\n")
+            break
         
-        # Seleccionar destino
-        dest_location = questionary.select(
-            f"Selecciona el {location_type} de DESTINO:",
-            choices=locations,
-        ).ask()
-        
-        if not dest_location:
-            print("Operacion cancelada.")
-            return
-        
-        # Obtener nodos más cercanos
-        try:
-            if location_type == "barrio":
-                start = get_nearest_barrio_node(G, origin_location)
-                end = get_nearest_barrio_node(G, dest_location)
-            else:
-                start = get_nearest_city_node(G, origin_location)
-                end = get_nearest_city_node(G, dest_location)
-            
-            print(f"\nOrigen: {origin_location} (nodo {start})")
-            print(f"Destino: {dest_location} (nodo {end})")
-        except Exception as e:
-            print(f"Error al encontrar nodos: {e}")
-            return
-    else:
-        # Seleccionar nodos aleatorios
-        start = random.choice(list(G.nodes))
-        end = random.choice(list(G.nodes))
-        print(f"\nNodo de inicio: {start}")
-        print(f"Nodo de destino: {end}")
-
-    # Configurar cantidad de cargadores si es algoritmo EV
-    chargers_amount = 10  # default
-    if "EV" in algorithm_choice:
-        print("\n" + "=" * 60)
-        print("  CONFIGURACION DE CARGADORES")
-        print("=" * 60)
-        
-        chargers_input = questionary.text(
-            "Cuantos cargadores usar? (Enter para todos los disponibles)",
-        ).ask()
-        
-        try:
-            chargers_amount = int(chargers_input) if chargers_input else None
-        except ValueError:
-            chargers_amount = 50
-    
-    print("\n" + "=" * 60)
-    print(f"  EJECUTANDO: {algorithm_choice}")
-    print("=" * 60)
-
-    # Determinar nombre del algoritmo antes de preguntar
-    match algorithm_choice:
-        case "A*":
-            algorithm_name = "a_star"
-        case "A* EV":
-            algorithm_name = "a_star_ev"
-        case _:
-            algorithm_name = "unknown"
-
-    # ¿Guardar frames intermedios?
-    print("\n" + "=" * 60)
-    print("  CONFIGURACION DE SALIDA")
-    print("=" * 60)
-    
-    guardar_intermedios = questionary.select(
-        "Guardar frames intermedios?",
-        choices=["No", "Si"],
-    ).ask()
-    save_frames = guardar_intermedios == "Si"
-
-    # Directorio de frames
-    save_dir = os.path.join("frames", algorithm_name)
-    os.makedirs(save_dir, exist_ok=True)
-    
-    # Directorio para la imagen final del PATH
-    final_image_dir = "output"
-    os.makedirs(final_image_dir, exist_ok=True)
-    
-    if save_frames:
-        print(f"\nFrames intermedios: {save_dir}/")
-    print(f"Imagen final: {final_image_dir}/")
-
-    # Ejecutar algoritmo seleccionado
-    match algorithm_choice:
-        case "A*":
-            a_star(
-                G,
-                start,
-                end,
-                plot=False,
-                save_dir=save_dir,
-                algorithm_name=algorithm_name,
-                save_frames=save_frames,
-            )
-        case "A* EV":
-            a_star_ev(
-                G,
-                start,
-                end,
-                chargers_amount=chargers_amount,
-                plot=False,
-                save_dir=save_dir,
-                algorithm_name=algorithm_name,
-                save_frames=save_frames,
-            )
-        case _:
-            print("Algoritmo no válido.")
-            return
-
-    # Reconstruir y guardar la imagen final del camino
-    print("\n" + "=" * 60)
-    print("  RECONSTRUCCION DEL CAMINO")
-    print("=" * 60)
-    
-    reconstruct_path(
-        G,
-        start,
-        end,
-        plot=False,
-        save_dir=save_dir,
-        algorithm_name=algorithm_name,
-        final_image_dir=final_image_dir,
-        save_final_image=True,
-    )
-
-    final_path = os.path.join(final_image_dir, f"{algorithm_name}_path.png")
-    print(f"\nImagen final guardada: {final_path}")
-
-    if save_frames:
-        print(f"Frames guardados: {save_dir}/")
-        
-        # Crear video opcional
-        print("\n" + "=" * 60)
-        print("  GENERACION DE VIDEO")
-        print("=" * 60)
-        
-        make_video = questionary.confirm("Crear video de las animaciones?").ask()
-        if make_video:
-            video_dir = "videos"
-            os.makedirs(video_dir, exist_ok=True)
-            
-            input_pattern = os.path.join(save_dir, f"{algorithm_name}_frame_%05d.png")
-            output_file = os.path.join(video_dir, f"{algorithm_name}.mp4")
-            
-            print(f"\nCreando video: {output_file}")
-            subprocess.run(
-                [
-                    "ffmpeg",
-                    "-framerate",
-                    "10",
-                    "-i",
-                    input_pattern,
-                    "-vf",
-                    "scale=958:702",
-                    "-c:v",
-                    "libx264",
-                    "-pix_fmt",
-                    "yuv420p",
-                    output_file,
-                ]
-            )
-            print(f"Video creado: {output_file}")
-    
-    print("\n" + "=" * 60)
-    print("  PROCESO COMPLETADO")
-    print("=" * 60)
+        # Pausa para que el usuario pueda leer el output antes de limpiar o volver al menú
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n\nPrograma interrumpido. ¡Hasta luego!\n")

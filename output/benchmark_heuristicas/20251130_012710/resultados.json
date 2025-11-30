@@ -1,0 +1,1989 @@
+{
+  "config": {
+    "GAMMA": 1.2,
+    "MAX_CAPACITY": 5.0,
+    "INITIAL_CHARGE": 5.0,
+    "RECHARGE_AMOUNT": 4.5,
+    "astar_variants": [
+      {
+        "name": "astar_euclidean",
+        "heuristic": "euclidean_distance",
+        "gamma_min": 1.2
+      },
+      {
+        "name": "astar_manhattan",
+        "heuristic": "manhattan_distance",
+        "gamma_min": 1.2
+      },
+      {
+        "name": "astar_octile",
+        "heuristic": "octile_distance",
+        "gamma_min": 1.2
+      }
+    ],
+    "greedy_name": "greedy"
+  },
+  "tests": [
+    {
+      "test_id": 1,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Centro",
+      "origen_node": 917352504,
+      "destino_node": 917453579,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.1826516753153054,
+          "nodes_expanded": 5081,
+          "num_recharges": 0,
+          "time_seconds": 0.12034130096435547,
+          "path_length": 22,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.1826516753153054,
+          "nodes_expanded": 5061,
+          "num_recharges": 0,
+          "time_seconds": 0.11444425582885742,
+          "path_length": 22,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.1826516753153054,
+          "nodes_expanded": 5076,
+          "num_recharges": 0,
+          "time_seconds": 0.09822630882263184,
+          "path_length": 22,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 2.216559712688589,
+          "nodes_expanded": 25,
+          "num_recharges": 0,
+          "time_seconds": 0.0007576942443847656,
+          "path_length": 24,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 2,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Cordón",
+      "origen_node": 917352504,
+      "destino_node": 917314741,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.955466009522396,
+          "nodes_expanded": 12457,
+          "num_recharges": 0,
+          "time_seconds": 0.3442676067352295,
+          "path_length": 33,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.955466009522396,
+          "nodes_expanded": 12399,
+          "num_recharges": 0,
+          "time_seconds": 0.2554209232330322,
+          "path_length": 33,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.955466009522396,
+          "nodes_expanded": 12442,
+          "num_recharges": 0,
+          "time_seconds": 0.23808979988098145,
+          "path_length": 33,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 3.099724611167124,
+          "nodes_expanded": 36,
+          "num_recharges": 0,
+          "time_seconds": 0.0007851123809814453,
+          "path_length": 34,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 3,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Palermo",
+      "origen_node": 917352504,
+      "destino_node": 917559543,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.688552011983505,
+          "nodes_expanded": 9254,
+          "num_recharges": 0,
+          "time_seconds": 0.18085956573486328,
+          "path_length": 34,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.688552011983505,
+          "nodes_expanded": 9213,
+          "num_recharges": 0,
+          "time_seconds": 0.18064403533935547,
+          "path_length": 34,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 2.688552011983505,
+          "nodes_expanded": 9242,
+          "num_recharges": 0,
+          "time_seconds": 0.2930285930633545,
+          "path_length": 34,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 2.7961097597180666,
+          "nodes_expanded": 33,
+          "num_recharges": 0,
+          "time_seconds": 0.0010006427764892578,
+          "path_length": 33,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 4,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Parque Rodó",
+      "origen_node": 917352504,
+      "destino_node": 917483393,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.013815761918972,
+          "nodes_expanded": 52489,
+          "num_recharges": 0,
+          "time_seconds": 3.0230212211608887,
+          "path_length": 51,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.013815761918972,
+          "nodes_expanded": 52309,
+          "num_recharges": 0,
+          "time_seconds": 1.317627191543579,
+          "path_length": 51,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.013815761918972,
+          "nodes_expanded": 52458,
+          "num_recharges": 0,
+          "time_seconds": 1.6477572917938232,
+          "path_length": 51,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 6.058159015671016,
+          "nodes_expanded": 330,
+          "num_recharges": 1,
+          "time_seconds": 0.004649639129638672,
+          "path_length": 63,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 5,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Pocitos",
+      "origen_node": 917352504,
+      "destino_node": 917414948,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.670524916294777,
+          "nodes_expanded": 45012,
+          "num_recharges": 0,
+          "time_seconds": 1.2963573932647705,
+          "path_length": 53,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.670524916294777,
+          "nodes_expanded": 44800,
+          "num_recharges": 0,
+          "time_seconds": 1.8149876594543457,
+          "path_length": 53,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.670524916294777,
+          "nodes_expanded": 44987,
+          "num_recharges": 0,
+          "time_seconds": 1.5906782150268555,
+          "path_length": 53,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 5.3117547651518136,
+          "nodes_expanded": 51,
+          "num_recharges": 0,
+          "time_seconds": 0.001529693603515625,
+          "path_length": 51,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 6,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Punta Carretas",
+      "origen_node": 917352504,
+      "destino_node": 917565282,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.70523800982114,
+          "nodes_expanded": 67108,
+          "num_recharges": 0,
+          "time_seconds": 2.4210712909698486,
+          "path_length": 67,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.70523800982114,
+          "nodes_expanded": 66847,
+          "num_recharges": 0,
+          "time_seconds": 1.9607131481170654,
+          "path_length": 67,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.70523800982114,
+          "nodes_expanded": 67069,
+          "num_recharges": 0,
+          "time_seconds": 2.2603180408477783,
+          "path_length": 67,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 8.221792896495726,
+          "nodes_expanded": 1167,
+          "num_recharges": 1,
+          "time_seconds": 0.019785642623901367,
+          "path_length": 86,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 7,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Carrasco",
+      "origen_node": 917352504,
+      "destino_node": 917532480,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        }
+      ]
+    },
+    {
+      "test_id": 8,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Carrasco Norte",
+      "origen_node": 917352504,
+      "destino_node": 917695153,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        }
+      ]
+    },
+    {
+      "test_id": 9,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Malvín",
+      "origen_node": 917352504,
+      "destino_node": 917447959,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 12.924603606790038,
+          "nodes_expanded": 253414,
+          "num_recharges": 3,
+          "time_seconds": 7.764661073684692,
+          "path_length": 131,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 12.924603606790038,
+          "nodes_expanded": 253114,
+          "num_recharges": 3,
+          "time_seconds": 7.18077826499939,
+          "path_length": 131,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 12.924603606790038,
+          "nodes_expanded": 253332,
+          "num_recharges": 3,
+          "time_seconds": 7.5318615436553955,
+          "path_length": 131,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 15.583276780178675,
+          "nodes_expanded": 18459,
+          "num_recharges": 3,
+          "time_seconds": 0.453718900680542,
+          "path_length": 144,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 10,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Buceo",
+      "origen_node": 917352504,
+      "destino_node": 917508419,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.88944629000439,
+          "nodes_expanded": 125157,
+          "num_recharges": 2,
+          "time_seconds": 3.8076512813568115,
+          "path_length": 87,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.88944629000439,
+          "nodes_expanded": 124566,
+          "num_recharges": 2,
+          "time_seconds": 3.3466498851776123,
+          "path_length": 87,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.88944629000439,
+          "nodes_expanded": 125042,
+          "num_recharges": 2,
+          "time_seconds": 3.3986880779266357,
+          "path_length": 87,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 11.320455435889919,
+          "nodes_expanded": 2255,
+          "num_recharges": 2,
+          "time_seconds": 0.030554533004760742,
+          "path_length": 114,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 11,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Aguada",
+      "origen_node": 917352504,
+      "destino_node": 917565335,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 0.8496820410337822,
+          "nodes_expanded": 152,
+          "num_recharges": 0,
+          "time_seconds": 0.004036664962768555,
+          "path_length": 10,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 0.8496820410337822,
+          "nodes_expanded": 148,
+          "num_recharges": 0,
+          "time_seconds": 0.0030884742736816406,
+          "path_length": 10,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 0.8496820410337822,
+          "nodes_expanded": 152,
+          "num_recharges": 0,
+          "time_seconds": 0.0056722164154052734,
+          "path_length": 10,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 0.8649864662482476,
+          "nodes_expanded": 10,
+          "num_recharges": 0,
+          "time_seconds": 0.00032067298889160156,
+          "path_length": 10,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 12,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Reducto",
+      "origen_node": 917352504,
+      "destino_node": 917474069,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.2834647688212515,
+          "nodes_expanded": 37058,
+          "num_recharges": 0,
+          "time_seconds": 0.8898353576660156,
+          "path_length": 21,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.2834647688212515,
+          "nodes_expanded": 36776,
+          "num_recharges": 0,
+          "time_seconds": 1.058311939239502,
+          "path_length": 21,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.2834647688212515,
+          "nodes_expanded": 37029,
+          "num_recharges": 0,
+          "time_seconds": 1.013303279876709,
+          "path_length": 21,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 4.2834647688212515,
+          "nodes_expanded": 92,
+          "num_recharges": 0,
+          "time_seconds": 0.0013270378112792969,
+          "path_length": 21,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 13,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Capurro",
+      "origen_node": 917352504,
+      "destino_node": 1756920214,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.730961544871761,
+          "nodes_expanded": 119792,
+          "num_recharges": 1,
+          "time_seconds": 3.344848394393921,
+          "path_length": 77,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.730961544871761,
+          "nodes_expanded": 119266,
+          "num_recharges": 1,
+          "time_seconds": 3.31681227684021,
+          "path_length": 77,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.730961544871761,
+          "nodes_expanded": 119675,
+          "num_recharges": 1,
+          "time_seconds": 3.2197515964508057,
+          "path_length": 77,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 9.928519082982298,
+          "nodes_expanded": 3336,
+          "num_recharges": 1,
+          "time_seconds": 0.05659890174865723,
+          "path_length": 65,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 14,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Bella Vista",
+      "origen_node": 917352504,
+      "destino_node": 917546378,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.775913502161899,
+          "nodes_expanded": 47099,
+          "num_recharges": 0,
+          "time_seconds": 1.2992136478424072,
+          "path_length": 44,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.775913502161899,
+          "nodes_expanded": 46860,
+          "num_recharges": 0,
+          "time_seconds": 1.3315823078155518,
+          "path_length": 44,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.775913502161899,
+          "nodes_expanded": 47069,
+          "num_recharges": 0,
+          "time_seconds": 1.2980594635009766,
+          "path_length": 44,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 6.274491751005175,
+          "nodes_expanded": 125,
+          "num_recharges": 1,
+          "time_seconds": 0.0025348663330078125,
+          "path_length": 34,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 15,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Prado",
+      "origen_node": 917352504,
+      "destino_node": 3744595665,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.2551635781805,
+          "nodes_expanded": 105971,
+          "num_recharges": 1,
+          "time_seconds": 3.4280154705047607,
+          "path_length": 68,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.2551635781805,
+          "nodes_expanded": 105423,
+          "num_recharges": 1,
+          "time_seconds": 2.738291025161743,
+          "path_length": 68,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.2551635781805,
+          "nodes_expanded": 105866,
+          "num_recharges": 1,
+          "time_seconds": 2.7926270961761475,
+          "path_length": 68,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 8.230078773585898,
+          "nodes_expanded": 291,
+          "num_recharges": 1,
+          "time_seconds": 0.0037178993225097656,
+          "path_length": 54,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 16,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Atahualpa",
+      "origen_node": 917352504,
+      "destino_node": 1758062846,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.481701890463604,
+          "nodes_expanded": 146497,
+          "num_recharges": 1,
+          "time_seconds": 4.4831788539886475,
+          "path_length": 77,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.481701890463604,
+          "nodes_expanded": 145673,
+          "num_recharges": 1,
+          "time_seconds": 3.8175809383392334,
+          "path_length": 77,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.481701890463604,
+          "nodes_expanded": 146354,
+          "num_recharges": 1,
+          "time_seconds": 3.935413122177124,
+          "path_length": 77,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 10.005827695902292,
+          "nodes_expanded": 517,
+          "num_recharges": 1,
+          "time_seconds": 0.010110139846801758,
+          "path_length": 65,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 17,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "La Comercial",
+      "origen_node": 917352504,
+      "destino_node": 917487971,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.691158421282834,
+          "nodes_expanded": 155270,
+          "num_recharges": 1,
+          "time_seconds": 4.6515748500823975,
+          "path_length": 84,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.691158421282834,
+          "nodes_expanded": 154760,
+          "num_recharges": 1,
+          "time_seconds": 4.388870477676392,
+          "path_length": 84,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.691158421282834,
+          "nodes_expanded": 155210,
+          "num_recharges": 1,
+          "time_seconds": 4.280696630477905,
+          "path_length": 84,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 12.824416983927758,
+          "nodes_expanded": 1520,
+          "num_recharges": 2,
+          "time_seconds": 0.022477149963378906,
+          "path_length": 118,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 18,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Jacinto Vera",
+      "origen_node": 917352504,
+      "destino_node": 917406782,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.686882519321995,
+          "nodes_expanded": 45351,
+          "num_recharges": 0,
+          "time_seconds": 1.1956357955932617,
+          "path_length": 43,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.686882519321995,
+          "nodes_expanded": 45165,
+          "num_recharges": 0,
+          "time_seconds": 1.2747220993041992,
+          "path_length": 43,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 4.686882519321995,
+          "nodes_expanded": 45328,
+          "num_recharges": 0,
+          "time_seconds": 1.108837604522705,
+          "path_length": 43,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 4.952987774749922,
+          "nodes_expanded": 287,
+          "num_recharges": 0,
+          "time_seconds": 0.006301164627075195,
+          "path_length": 42,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 19,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "La Figurita",
+      "origen_node": 917352504,
+      "destino_node": 917511937,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 6.534828166900851,
+          "nodes_expanded": 86818,
+          "num_recharges": 1,
+          "time_seconds": 2.318826913833618,
+          "path_length": 66,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 6.534828166900851,
+          "nodes_expanded": 86528,
+          "num_recharges": 1,
+          "time_seconds": 2.5307681560516357,
+          "path_length": 66,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 6.534828166900851,
+          "nodes_expanded": 86759,
+          "num_recharges": 1,
+          "time_seconds": 2.914999485015869,
+          "path_length": 66,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 9.070581116465192,
+          "nodes_expanded": 1035,
+          "num_recharges": 1,
+          "time_seconds": 0.01400613784790039,
+          "path_length": 83,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 20,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Larrañaga",
+      "origen_node": 917352504,
+      "destino_node": 917464359,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.908088319629392,
+          "nodes_expanded": 126153,
+          "num_recharges": 1,
+          "time_seconds": 3.7682836055755615,
+          "path_length": 78,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.908088319629392,
+          "nodes_expanded": 125745,
+          "num_recharges": 1,
+          "time_seconds": 3.420154333114624,
+          "path_length": 78,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.908088319629392,
+          "nodes_expanded": 126091,
+          "num_recharges": 1,
+          "time_seconds": 3.61602520942688,
+          "path_length": 78,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 10.66892288314179,
+          "nodes_expanded": 1094,
+          "num_recharges": 1,
+          "time_seconds": 0.020402193069458008,
+          "path_length": 101,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 21,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "La Blanqueada",
+      "origen_node": 917352504,
+      "destino_node": 917368313,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 6.201311108950751,
+          "nodes_expanded": 78497,
+          "num_recharges": 1,
+          "time_seconds": 2.2029519081115723,
+          "path_length": 67,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 6.201311108950751,
+          "nodes_expanded": 78367,
+          "num_recharges": 1,
+          "time_seconds": 1.998255968093872,
+          "path_length": 67,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 6.201311108950751,
+          "nodes_expanded": 78451,
+          "num_recharges": 1,
+          "time_seconds": 2.0032312870025635,
+          "path_length": 67,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 8.201981604727768,
+          "nodes_expanded": 1676,
+          "num_recharges": 1,
+          "time_seconds": 0.02812027931213379,
+          "path_length": 75,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 22,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Tres Cruces",
+      "origen_node": 917352504,
+      "destino_node": 917413295,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.109485527366309,
+          "nodes_expanded": 54704,
+          "num_recharges": 0,
+          "time_seconds": 1.4533650875091553,
+          "path_length": 49,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.109485527366309,
+          "nodes_expanded": 54612,
+          "num_recharges": 0,
+          "time_seconds": 1.3671941757202148,
+          "path_length": 49,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 5.109485527366309,
+          "nodes_expanded": 54680,
+          "num_recharges": 0,
+          "time_seconds": 1.4179818630218506,
+          "path_length": 49,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 5.129527368197622,
+          "nodes_expanded": 55,
+          "num_recharges": 0,
+          "time_seconds": 0.0011594295501708984,
+          "path_length": 53,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 23,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Unión",
+      "origen_node": 917352504,
+      "destino_node": 1897595361,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.248880592511709,
+          "nodes_expanded": 106318,
+          "num_recharges": 1,
+          "time_seconds": 3.067335605621338,
+          "path_length": 60,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.248880592511709,
+          "nodes_expanded": 106140,
+          "num_recharges": 1,
+          "time_seconds": 4.728738784790039,
+          "path_length": 60,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 7.248880592511709,
+          "nodes_expanded": 106263,
+          "num_recharges": 1,
+          "time_seconds": 5.988385438919067,
+          "path_length": 60,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 9.39491252232708,
+          "nodes_expanded": 1694,
+          "num_recharges": 1,
+          "time_seconds": 0.04031729698181152,
+          "path_length": 84,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 24,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Villa Dolores",
+      "origen_node": 917352504,
+      "destino_node": 917396381,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.7901180352694,
+          "nodes_expanded": 159201,
+          "num_recharges": 1,
+          "time_seconds": 8.184354543685913,
+          "path_length": 91,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.7901180352694,
+          "nodes_expanded": 158850,
+          "num_recharges": 1,
+          "time_seconds": 6.470072984695435,
+          "path_length": 91,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 8.7901180352694,
+          "nodes_expanded": 159121,
+          "num_recharges": 1,
+          "time_seconds": 6.688532590866089,
+          "path_length": 91,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 12.597844270632937,
+          "nodes_expanded": 1678,
+          "num_recharges": 2,
+          "time_seconds": 0.045350074768066406,
+          "path_length": 116,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 25,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Punta Gorda",
+      "origen_node": 917352504,
+      "destino_node": 917342557,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": null,
+          "nodes_expanded": null,
+          "num_recharges": null,
+          "time_seconds": null,
+          "path_length": null,
+          "reached_destination": false
+        }
+      ]
+    },
+    {
+      "test_id": 26,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Puerto del Buceo",
+      "origen_node": 917352504,
+      "destino_node": 917703165,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 9.218450325520736,
+          "nodes_expanded": 174194,
+          "num_recharges": 2,
+          "time_seconds": 5.173867225646973,
+          "path_length": 95,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 9.218450325520736,
+          "nodes_expanded": 173413,
+          "num_recharges": 2,
+          "time_seconds": 4.962607383728027,
+          "path_length": 95,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 9.218450325520736,
+          "nodes_expanded": 174086,
+          "num_recharges": 2,
+          "time_seconds": 4.9681396484375,
+          "path_length": 95,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 13.053420906842195,
+          "nodes_expanded": 3686,
+          "num_recharges": 2,
+          "time_seconds": 0.06874394416809082,
+          "path_length": 125,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 27,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Cerro",
+      "origen_node": 917352504,
+      "destino_node": 917721621,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.127301598390181,
+          "nodes_expanded": 298659,
+          "num_recharges": 3,
+          "time_seconds": 9.27680230140686,
+          "path_length": 134,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.127301598390181,
+          "nodes_expanded": 298369,
+          "num_recharges": 3,
+          "time_seconds": 9.036812782287598,
+          "path_length": 134,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.127301598390181,
+          "nodes_expanded": 298569,
+          "num_recharges": 3,
+          "time_seconds": 9.376477241516113,
+          "path_length": 134,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 18.669476263622194,
+          "nodes_expanded": 12448,
+          "num_recharges": 3,
+          "time_seconds": 0.20663714408874512,
+          "path_length": 130,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 28,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "La Teja",
+      "origen_node": 917352504,
+      "destino_node": 917553200,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 13.078428297143187,
+          "nodes_expanded": 255740,
+          "num_recharges": 3,
+          "time_seconds": 7.990931749343872,
+          "path_length": 119,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 13.078428297143187,
+          "nodes_expanded": 255633,
+          "num_recharges": 3,
+          "time_seconds": 7.371844291687012,
+          "path_length": 119,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 13.078428297143187,
+          "nodes_expanded": 255701,
+          "num_recharges": 3,
+          "time_seconds": 7.457240581512451,
+          "path_length": 119,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 17.235001332496754,
+          "nodes_expanded": 12050,
+          "num_recharges": 3,
+          "time_seconds": 0.22458791732788086,
+          "path_length": 135,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 29,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Paso de la Arena",
+      "origen_node": 917352504,
+      "destino_node": 5329699207,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 16.071510400862767,
+          "nodes_expanded": 317902,
+          "num_recharges": 4,
+          "time_seconds": 10.119252920150757,
+          "path_length": 125,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 16.071510400862767,
+          "nodes_expanded": 317745,
+          "num_recharges": 4,
+          "time_seconds": 9.756082534790039,
+          "path_length": 125,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 16.071510400862767,
+          "nodes_expanded": 317848,
+          "num_recharges": 4,
+          "time_seconds": 9.696533918380737,
+          "path_length": 125,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 22.817832575228422,
+          "nodes_expanded": 22879,
+          "num_recharges": 4,
+          "time_seconds": 0.5090043544769287,
+          "path_length": 170,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 30,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Nuevo París",
+      "origen_node": 917352504,
+      "destino_node": 917346766,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 10.467196421145397,
+          "nodes_expanded": 213498,
+          "num_recharges": 2,
+          "time_seconds": 6.444043159484863,
+          "path_length": 93,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 10.467196421145397,
+          "nodes_expanded": 212905,
+          "num_recharges": 2,
+          "time_seconds": 6.151194095611572,
+          "path_length": 93,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 10.467196421145397,
+          "nodes_expanded": 213335,
+          "num_recharges": 2,
+          "time_seconds": 6.137497901916504,
+          "path_length": 93,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 11.60282771719223,
+          "nodes_expanded": 9494,
+          "num_recharges": 2,
+          "time_seconds": 0.16170382499694824,
+          "path_length": 77,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 31,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Belvedere",
+      "origen_node": 917352504,
+      "destino_node": 917503922,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.704851387740788,
+          "nodes_expanded": 311359,
+          "num_recharges": 3,
+          "time_seconds": 9.660271406173706,
+          "path_length": 137,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.704851387740788,
+          "nodes_expanded": 310978,
+          "num_recharges": 3,
+          "time_seconds": 9.721099853515625,
+          "path_length": 137,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.704851387740788,
+          "nodes_expanded": 311291,
+          "num_recharges": 3,
+          "time_seconds": 9.554754734039307,
+          "path_length": 137,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 17.05010159839705,
+          "nodes_expanded": 20865,
+          "num_recharges": 3,
+          "time_seconds": 0.43531131744384766,
+          "path_length": 127,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 32,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Sayago",
+      "origen_node": 917352504,
+      "destino_node": 917700431,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 12.133463199883185,
+          "nodes_expanded": 243723,
+          "num_recharges": 3,
+          "time_seconds": 7.789022922515869,
+          "path_length": 109,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 12.133463199883185,
+          "nodes_expanded": 243568,
+          "num_recharges": 3,
+          "time_seconds": 7.652708530426025,
+          "path_length": 109,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 12.133463199883185,
+          "nodes_expanded": 243678,
+          "num_recharges": 3,
+          "time_seconds": 7.663304567337036,
+          "path_length": 109,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 13.693209677451378,
+          "nodes_expanded": 10699,
+          "num_recharges": 3,
+          "time_seconds": 0.2134532928466797,
+          "path_length": 101,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 33,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Ituzaingó",
+      "origen_node": 917352504,
+      "destino_node": 917604815,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 11.794843315571411,
+          "nodes_expanded": 240236,
+          "num_recharges": 2,
+          "time_seconds": 7.918352127075195,
+          "path_length": 111,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 11.794843315571411,
+          "nodes_expanded": 240099,
+          "num_recharges": 2,
+          "time_seconds": 7.241939306259155,
+          "path_length": 111,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 11.794843315571411,
+          "nodes_expanded": 240196,
+          "num_recharges": 2,
+          "time_seconds": 7.483932256698608,
+          "path_length": 111,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 18.00747305045945,
+          "nodes_expanded": 4324,
+          "num_recharges": 3,
+          "time_seconds": 0.07842612266540527,
+          "path_length": 148,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 34,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Flor de Maroñas",
+      "origen_node": 917352504,
+      "destino_node": 917732384,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 13.336874040273702,
+          "nodes_expanded": 258736,
+          "num_recharges": 2,
+          "time_seconds": 8.246367454528809,
+          "path_length": 128,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 13.336874040273702,
+          "nodes_expanded": 258352,
+          "num_recharges": 2,
+          "time_seconds": 9.305770635604858,
+          "path_length": 128,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 13.336874040273702,
+          "nodes_expanded": 258635,
+          "num_recharges": 2,
+          "time_seconds": 9.524497509002686,
+          "path_length": 128,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 18.406183098140534,
+          "nodes_expanded": 6312,
+          "num_recharges": 3,
+          "time_seconds": 0.15282535552978516,
+          "path_length": 159,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 35,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Maroñas",
+      "origen_node": 917352504,
+      "destino_node": 917689497,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.570076723404686,
+          "nodes_expanded": 307972,
+          "num_recharges": 3,
+          "time_seconds": 11.619181394577026,
+          "path_length": 140,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.570076723404686,
+          "nodes_expanded": 307453,
+          "num_recharges": 3,
+          "time_seconds": 11.872556447982788,
+          "path_length": 140,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 15.570076723404686,
+          "nodes_expanded": 307826,
+          "num_recharges": 3,
+          "time_seconds": 11.57954740524292,
+          "path_length": 140,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 20.19102187511589,
+          "nodes_expanded": 6490,
+          "num_recharges": 4,
+          "time_seconds": 0.1396009922027588,
+          "path_length": 167,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 36,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Villa Española",
+      "origen_node": 917352504,
+      "destino_node": 917417523,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 10.308653010120304,
+          "nodes_expanded": 210149,
+          "num_recharges": 2,
+          "time_seconds": 7.754189729690552,
+          "path_length": 103,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 10.308653010120304,
+          "nodes_expanded": 209734,
+          "num_recharges": 2,
+          "time_seconds": 7.517451047897339,
+          "path_length": 103,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 10.308653010120304,
+          "nodes_expanded": 210121,
+          "num_recharges": 2,
+          "time_seconds": 6.988269567489624,
+          "path_length": 103,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 14.002514106013875,
+          "nodes_expanded": 1202,
+          "num_recharges": 2,
+          "time_seconds": 0.017261981964111328,
+          "path_length": 129,
+          "reached_destination": true
+        }
+      ]
+    },
+    {
+      "test_id": 37,
+      "origen_name": "Ciudad Vieja",
+      "destino_name": "Jardines del Hipódromo",
+      "origen_node": 917352504,
+      "destino_node": 917346597,
+      "algorithms": [
+        {
+          "algoritmo": "astar_euclidean",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 14.670708583319522,
+          "nodes_expanded": 286256,
+          "num_recharges": 3,
+          "time_seconds": 11.786504983901978,
+          "path_length": 140,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_manhattan",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 14.670708583319522,
+          "nodes_expanded": 285672,
+          "num_recharges": 3,
+          "time_seconds": 11.3311185836792,
+          "path_length": 140,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "astar_octile",
+          "tipo": "astar",
+          "gamma_min": 1.2,
+          "energy_kwh": 14.670708583319522,
+          "nodes_expanded": 286054,
+          "num_recharges": 3,
+          "time_seconds": 10.924296140670776,
+          "path_length": 140,
+          "reached_destination": true
+        },
+        {
+          "algoritmo": "greedy",
+          "tipo": "greedy",
+          "gamma_min": null,
+          "energy_kwh": 21.37568565993235,
+          "nodes_expanded": 5568,
+          "num_recharges": 4,
+          "time_seconds": 0.10350823402404785,
+          "path_length": 194,
+          "reached_destination": true
+        }
+      ]
+    }
+  ]
+}

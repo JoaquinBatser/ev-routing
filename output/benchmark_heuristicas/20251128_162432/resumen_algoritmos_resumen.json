@@ -1,0 +1,54 @@
+{
+  "astar_euclidean": {
+    "num_tests": 34,
+    "mean_energy_kwh": 8.5311851647586,
+    "median_energy_kwh": 7.898767304816891,
+    "mean_nodes_expanded": 145802.26470588235,
+    "median_nodes_expanded": 125655.0,
+    "mean_num_recharges": 1.3529411764705883,
+    "mean_time_seconds": 1.1412107383503634,
+    "median_time_seconds": 0.9722470045089722,
+    "mean_path_length": 80.79411764705883,
+    "speedup_nodes_vs_baseline": 1.0,
+    "speedup_time_vs_baseline": 1.0
+  },
+  "astar_manhattan": {
+    "num_tests": 34,
+    "mean_energy_kwh": 8.5311851647586,
+    "median_energy_kwh": 7.898767304816891,
+    "mean_nodes_expanded": 145486.5588235294,
+    "median_nodes_expanded": 125155.5,
+    "mean_num_recharges": 1.3529411764705883,
+    "mean_time_seconds": 1.209326702005723,
+    "median_time_seconds": 1.137193202972412,
+    "mean_path_length": 80.79411764705883,
+    "speedup_nodes_vs_baseline": 1.0021700003416527,
+    "speedup_time_vs_baseline": 0.9436744731242713
+  },
+  "astar_octile": {
+    "num_tests": 34,
+    "mean_energy_kwh": 8.5311851647586,
+    "median_energy_kwh": 7.898767304816891,
+    "mean_nodes_expanded": 145736.35294117648,
+    "median_nodes_expanded": 125566.5,
+    "mean_num_recharges": 1.3529411764705883,
+    "mean_time_seconds": 1.3032962294185864,
+    "median_time_seconds": 1.2026195526123047,
+    "mean_path_length": 80.79411764705883,
+    "speedup_nodes_vs_baseline": 1.0004522671480085,
+    "speedup_time_vs_baseline": 0.8756341901330207
+  },
+  "greedy": {
+    "num_tests": 34,
+    "mean_energy_kwh": 10.974738938252015,
+    "median_energy_kwh": 10.33737528952204,
+    "mean_nodes_expanded": 4464.205882352941,
+    "median_nodes_expanded": 1598.0,
+    "mean_num_recharges": 1.6176470588235294,
+    "mean_time_seconds": 0.03245556354522705,
+    "median_time_seconds": 0.007444143295288086,
+    "mean_path_length": 92.11764705882354,
+    "speedup_nodes_vs_baseline": 32.660291336974495,
+    "speedup_time_vs_baseline": 35.16225305285728
+  }
+}
