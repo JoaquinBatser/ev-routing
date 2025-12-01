@@ -66,12 +66,10 @@ def greedy_battery(
     if charger_nodes is None:
         charger_nodes = []
 
+    # Utiliza un set para búsquedas de O(1)
     charger_set = set(charger_nodes)
 
     # Estado: (nodo, batería_discretizada)
-    # Para evitar explosión del espacio de estados, discretizamos la batería
-
-    # Estructuras de datos
     initial_state = (orig, discretize_battery(initial_charge))
 
     # g_score: energía acumulada (para tracking, no para selección)
@@ -89,8 +87,7 @@ def greedy_battery(
     best_battery_at_node: Dict[int, float] = {orig: initial_charge}
 
     # Cola de prioridad: (h_score, contador, estado)
-    # GREEDY: solo usa h(n), no g(n)
-    counter = 0
+    counter = 0 # El contador hace diferenciar estados iguales con mismo h_score
     pq = [(h_score[initial_state], counter, initial_state)]
     counter += 1
 

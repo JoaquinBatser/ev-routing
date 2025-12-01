@@ -58,6 +58,7 @@ def astar_battery(
         - num_recargas: Cantidad de recargas realizadas en el camino
         - tiempo_ejecucion: Tiempo de cómputo en segundos
     """
+    # Heurística euclideana por si no se pasa ninguna heuristica
     if heuristic_func is None:
         heuristic_func = euclidean_distance
 
@@ -66,17 +67,16 @@ def astar_battery(
     if charger_nodes is None:
         charger_nodes = []
 
+    # Se genera un set para poder hacer búsquedas de O(1)
     charger_set = set(charger_nodes)
 
     # Estado: (nodo, batería_discretizada)
-    # Para evitar explosión del espacio de estados, discretizamos la batería
-
-    # Estructuras de datos
-    # g_score: costo energético acumulado desde el origen
-    # f_score: g + heurística
     initial_state = (orig, discretize_battery(initial_charge))
 
-    g_score: Dict[Tuple[int, float], float] = {initial_state: 0.0}
+    # g_score: costo energético acumulado desde el origen
+    g_score: Dict[Tuple[int, float], float] = {initial_state: 0.0} # En el estado inicial es costo acumulado es 0
+    
+    # f_score: g + heurística
     f_score: Dict[Tuple[int, float], float] = {
         initial_state: heuristic_func(G, orig, dest) * gamma_min
     }
@@ -88,7 +88,7 @@ def astar_battery(
     best_battery_at_node: Dict[int, float] = {orig: initial_charge}
 
     # Cola de prioridad: (f_score, contador, estado)
-    counter = 0
+    counter = 0 # El contador se utiliza para desempatar cuando dos estados tienen el mismo f_score
     pq = [(f_score[initial_state], counter, initial_state)]
     counter += 1
 
@@ -144,7 +144,8 @@ def astar_battery(
                 neighbor_state = (neighbor, new_battery_disc)
                 tentative_g = g_score[current_state] + energy_cost
 
-                # Si encontramos un mejor camino a este estado
+                # Si el estado vecino no se conocía o Si encontramos un camino mejor (menor g) hacia él entonces acutalizamos
+
                 if (
                     neighbor_state not in g_score
                     or tentative_g < g_score[neighbor_state]
