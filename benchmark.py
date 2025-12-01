@@ -54,7 +54,7 @@ DOTS_SPINNER = {
     "frames": ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"],
 }
 
-
+# Dibuja el camino encontrado sobre el grafo y lo guarda 
 def save_path_visualization(
     G_original,
     path: List[int],
@@ -112,6 +112,7 @@ def save_path_visualization(
     plot_graph(G, has_chargers=True, save_path=save_path, high_quality=True)
 
 
+# Ejecuta una variante de A* llamando a la función astar_battery
 def run_astar_variant(
     variant_name: str,
     heuristic_func,
@@ -162,7 +163,7 @@ def run_astar_variant(
     )
     return metrics, path
 
-
+# Corre la función greedy_battery 
 def run_greedy(
     G,
     charger_nodes: List[int],
@@ -210,6 +211,7 @@ def run_greedy(
     return metrics, path
 
 
+# Esta función ejecuta todos los algoritmos para origen/destino
 def run_test(
     G,
     charger_nodes: List[int],
